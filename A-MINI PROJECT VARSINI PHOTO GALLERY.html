@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pondicherry Tourism Gallery</title>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #fff8f0, #fce3d4);
+    color: #333;
+  }
+
+  header {
+    background-color: #4b2c20;
+    color: #fff;
+    text-align: center;
+    padding: 35px 0;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+  }
+
+  header h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-shadow: 2px 2px #00000033;
+  }
+
+  .section-title {
+    text-align: center;
+    margin: 60px 0 25px;
+    font-size: 2rem;
+    color: #4b2c20;
+    letter-spacing: 1px;
+    position: relative;
+  }
+
+  .section-title::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 60px;
+    background: #f57c00;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 0 40px 60px;
+    max-width: 1300px;
+    margin: auto;
+  }
+
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    background: #fff;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .gallery-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 20px 35px rgba(0,0,0,0.2);
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 16px;
+    transition: opacity 0.3s;
+  }
+
+  .gallery-item img:hover {
+    opacity: 0.92;
+  }
+
+  footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #4b2c20;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 60px;
+    letter-spacing: 1px;
+  }
+
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2rem;
+    }
+    .section-title {
+      font-size: 1.5rem;
+    }
+  }
+.caption {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 12px 8px;
+  margin-top: -8px;
+  color: #3b2f2f;
+  background-color: #fff;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+}
+
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>BONJOUR PONDICHERRY / Varsini's PondiFrames</h1>
+  </header>
+
+  <!-- Section 1: Beaches -->
+  <h2 class="section-title">📍 Pondicherry Beaches</h2>
+  <div class="gallery">
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\beach.jpg" alt="Pondicherry Beach">
+    <p class="caption">Pondicherry Beach</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\promenade-beach1.jpg" alt="Promenade Beach">
+    <p class="caption">Promenade Beach</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\rock.jpg" alt="Rock Beach">
+    <p class="caption">Rock Beach</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\serenity-beach.webp" alt="Serenity Beach">
+    <p class="caption">Serenity Beach</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\Paradise-Beach-Pondicherry-3.jpg" alt="Paradise Beach">
+    <p class="caption">Paradise Beach</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\sunrise.jpg" alt="Sunrise at Beach">
+    <p class="caption">Sunrise View</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\sunset.jpg" alt="Sunset Beach View">
+    <p class="caption">Sunset View</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\pondicherry-lighthouse-tourism-opening-time-closing.jpg" alt="Beach Lighthouse">
+    <p class="caption">Lighthouse View</p>
+  </div>
+  </div>
+
+  <!-- Section 2: Churches & Temples -->
+  <h2 class="section-title">⛪ Temples & Churches</h2>
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\Sacred_Heart_of_Jesus_Main.jpg" alt="Sacred Heart Basilica">
+    <p class="caption">Sacred Heart Basilica</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\cathedral-puducherry-entry-fee-timings-holidays-reviews-header.jpg" alt="Immaculate Cathedral">
+    <p class="caption">Immaculate Cathedral</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\arulmigu-manakula-vinayagar-temple-puducherry-tourism-entry-fee-timings-holidays-reviews-header.jpg" alt="Manakula Vinayagar Temple">
+    <p class="caption">Manakula Vinayagar Temple</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\sithananda temple.jpg" alt="Sithananda Temple">
+    <p class="caption">Sithananda Temple</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\eglise-de-notre-dame-des-anges-puducherry-puducherry-2-attr-hero.jpeg" alt="Notre Dame des Anges">
+    <p class="caption">Notre Dame des Anges</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\nteriors-catholic-church-pondicherry-sacred-heart-basilica_380726-748.jpg" alt="Church Interior">
+    <p class="caption">Church Interior</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\bell tower.jpg" alt="Church Bell Tower">
+    <p class="caption">Church Bell Tower</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\columns.webp" alt="Church Columns">
+    <p class="caption">Church Columns</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\panjamuga-anjaneya-swami-aalayam-sikkarayapuram-chennai-temples-kuhghh7z7d.avif" alt="Hanuman Temple">
+    <p class="caption">Hanuman Temple</p>
+  </div>
+  </div>
+
+  <!-- Section 3: French Architecture -->
+  <h2 class="section-title">🏛 French Colonial Architecture</h2>
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\french colony.jpg" alt="French Colony House">
+    <p class="caption">French Colony House</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\yellow house.jpg" alt="Yellow Heritage House">
+    <p class="caption">Yellow Heritage House</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\the-french-quarter-puducherry-puducherry-2-musthead-hero.jpeg" alt="French Quarter Lane">
+    <p class="caption">French Quarter Lane</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\french-colonial.jpg" alt="Colonial Building">
+    <p class="caption">Colonial Building</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\old-home-1024x768.jpg" alt="Colorful Heritage Homes">
+    <p class="caption">Colorful Heritage Homes</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\white town street.jpg" alt="White Town Street">
+    <p class="caption">White Town Street</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\french-colonial.jpg" alt="Colonial Window">
+    <p class="caption">Colonial Window</p>
+  </div>
+  <div class="gallery-item">
+    <img src="C:\Users\Dell\Desktop\internship\mini project photo\old-home-1024x768.jpg" alt="Traditional French Home">
+    <p class="caption">Traditional French Home</p>
+  </div>
+</div>
+  <footer>
+    &copy; 2025 Pondicherry Tourism | Designed by Varsini 💛
+  </footer>
+
+</body>
+</html>
